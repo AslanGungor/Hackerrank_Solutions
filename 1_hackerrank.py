@@ -7,7 +7,7 @@ for i in range(1,n+1):
             print(".",end="")
     else:
         for k in range(1,m+1):
-            print("-",end="")
+            print("-",end=" ")
             if k==(m-1)/2:              #En orta sütuna "|" işareti koyuyor
                 print("|",end="")
     print()                             #Satır Atlama
